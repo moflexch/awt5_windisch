@@ -1,0 +1,1 @@
+## Dokumentation zum Workshop 1: _Wie geht modellbasierte Methode mit INTERLIS?_

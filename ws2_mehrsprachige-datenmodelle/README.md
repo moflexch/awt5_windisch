@@ -1,0 +1,1 @@
+## Dokumentation zum Workshop 2: _Mehrsprachige INTERLIS-Datenmodelle in der Praxis_
