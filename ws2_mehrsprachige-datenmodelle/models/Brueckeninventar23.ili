@@ -1,0 +1,31 @@
+INTERLIS 2.3;
+
+MODEL Brueckeninventar23 (de) AT "https://models.moflex.ch"
+  VERSION "29.10.2025" =
+
+  IMPORTS GeometryCHLV95_V1;
+
+  TOPIC Bruecken =
+
+    CLASS Bruecke =
+      Baujahr: 1000..2100;
+      Bauweise: MANDATORY (Holz,Beton,Stein);
+      Name: MANDATORY TEXT*50;
+      letzteSanierung: 1800..2100;
+      zulaessigeTragkraft: 1..99;
+      Detailgeometrie: MANDATORY GeometryCHLV95_V1.Surface;
+    END Bruecke;
+
+    CLASS Inspektion =
+      Datum: INTERLIS.XMLDate;
+      Zustand: MANDATORY (gut,schlecht);
+    END Inspektion;
+
+    ASSOCIATION Kontrolle =
+      rolle_a -- {1} Bruecke;
+      rolle_b -- {0..*} Inspektion;
+    END Kontrolle;
+
+  END Bruecken;
+
+END Brueckeninventar23.
