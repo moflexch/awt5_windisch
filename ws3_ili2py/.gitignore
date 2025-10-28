@@ -1,0 +1,6 @@
+plantuml/
+dot/
+mermaid/
+interface/
+models/**/*.xtf
+manipulated.xtf
