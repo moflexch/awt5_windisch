@@ -9,7 +9,7 @@
   - INTERLIS 2 (by GeoWerkstatt)
   - XML Tools (by Josh Johnson)
 - QGIS v3.40 LTR [Download](https://qgis.org/download/)
-  - QGIS Model Baker (als Plug-In zu QGIS, via Menü _Plugin_ in QGIS)
+  - QGIS Model Baker v8.0.4 (als Plug-In zu QGIS, via Menü _Plugin_ in QGIS)
 - INTERLIS Compiler ili2c (via [interlis.ch](https://www.interlis.ch/downloads/ili2c))
 
 ### Installation
