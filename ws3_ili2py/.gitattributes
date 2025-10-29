@@ -1,0 +1,5 @@
+*.zip binary
+*.png binary
+ili2py-linux
+ili2py-macos
+ili2py-windows.exe
