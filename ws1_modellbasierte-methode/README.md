@@ -1,6 +1,6 @@
 ## Workshop 1: Modellbasierte Methode mit INTERLIS
 
-Ziel dieses Workshops ist es nicht nur, INTERLIS-Daten in eine Datenbank zu importieren, sondern den gesamten modellbasierten Ansatz kennenzulernen: Wie dienen formale Datenmodelle (z.B. INTERLIS `.ili`) als roter Faden für Import, Validierung, Restrukturierung, Ableitung und Publikation von Geodaten? Du lernst die Prinzipien, typischen Arbeitsschritte und ein Regelwerk zur strukturierten Transformation (Restrukturierung) zwischen Quell- und Zielmodellen kennen.
+Ziel dieses Workshops ist es nicht nur, INTERLIS-Daten in eine Datenbank zu importieren, sondern den gesamten modellbasierten Ansatz kennenzulernen: Wie dienen formale Datenmodelle (z.B. INTERLIS `.ili`) als roter Faden für Import, Validierung, Restrukturierung, Ableitung und Publikation von Geodaten? Du lernst die Prinzipien, typischen Arbeitsschritte und ein Regelwerk zur strukturierten Transformation (Restrukturierung) zwischen Quell- und Zielmodellen kennen. Die Übungen führen dich von den Quellmodellen (ISOS, KGS) zu speziell entworfenen Zielmodellen ("Zielmodelle") für Analyse, Aggregation und vereinheitlichte Publikation.
 
 ### Ziele des Workshops
 Am Ende kannst du:
@@ -82,6 +82,9 @@ Die Folien (PDF) liefern eine Einführung in Interoperabilität und die modellba
 ├── env_files/
 │   ├── common.env               # Gemeinsame Umgebungsvariablen
 │   └── ...                      # Benutzer-/projektspezifische env-Dateien (Polybox Download)
+├── exercise_models/
+│   ├── Aufgabe1_KGS_Objekte_A.ili   # Ziel-Modell Übung 1
+│   └── ...                          # Weitere Modelle
 ├── scripts/
 │   ├── ILI2DB_IMPORT_COMMANDS_ISOS.txt  # Importbefehle ISOS
 │   └── ILI2DB_IMPORT_COMMANDS_KGS.txt   # Importbefehle KGS
@@ -103,3 +106,39 @@ Die Folien (PDF) liefern eine Einführung in Interoperabilität und die modellba
 6. Ergebnisse evaluieren und verbessern
 
 Viel Erfolg beim Kennenlernen der modellbasierten Methode! 
+
+---
+
+## Zielmodelle der Übungen
+Die folgenden sechs INTERLIS-Modelle (im Ordner `scripts/`) definieren die Zieltabellenstrukturen, in welche wir die importierten Quell-Daten transformieren. Sie dienen als Referenz für das Regelwerk (SQL, Views, Materialized Views) sowie für mögliche spätere Exporte zurück nach INTERLIS.
+
+| Aufgabe | Dateiname | Zweck / Inhalt | Bemerkungen |
+|---------|-----------|----------------|-------------|
+| 1 | `Aufgabe1_KGS_Objekte_A.ili` | Gefilterte KGS-Objekte der Kategorie A als Punkte | Punktkoordinate in EPSG:2056 (LV95) |
+| 2 | `Aufgabe2_KGS_Count_A_Pro_Gemeinde.ili` | Aggregation: Anzahl KGS-A pro Gemeinde | Reiner Integer-Wertebereich |
+| 3 | `Aufgabe3_KGS_A_Sub_by_Kanton.ili` | Aggregation: Sub-Kategorien (A.*) nach Kanton | Domain für Anzahl definiert |
+| 4 | `Aufgabe4_KGS_Objekt_mit_Objektarten.ili` | KGS-Objekte mit aggregierter Liste Objektarten | Liste als Text (kommasepariert) |
+| 5 | `Aufgabe5_ISOS_ObPerimeter_FK_mit_KGS_Count.ili` | ISOS-Ortsbild-Perimeter + Anzahl KGS A-Punkte im Polygon | Flächendomain (SURFACE) mit LV95-Koordinaten |
+| 6 | `Aufgabe6_Kulturerbe_Punkte.ili` | Vereinheitlichte Punktmenge (KGS + ISOS Varianten) | Vereinheitlichung über `src`-Typ |
+
+Hinweis: Die Geometrie-Domains wurden lokal definiert (Achsenbereiche LV95/EPSG:2056), um externe Modelldependenzen zu vermeiden. Für produktive Nutzung kannst du ein gemeinsames Basis-Geometriemodell einführen oder auf ein offizielles Modell verweisen.
+
+### Transformation in die Zielmodelle
+1. Ableitungslogik formulieren (SQL) basierend auf Quelltabellen und Bedingungen der Aufgabe.
+2. Datentypen prüfen: Stimmen Textlängen, Zahlenbereiche, Geometrie-Typen mit Zielmodell überein?
+3. Aggregationen/Filter anwenden: COUNT, GROUP BY, räumliche Selektionen (z.B. ST_Covers).
+4. Qualitätssicherung: Prüfen auf Null-Werte, Duplikate, ungültige Geometrien vor Insert/Export.
+5. Optionaler Export: Mit `ili2pg --export` zurück in eine XTF-Datei, die den Zielmodell-Strukturen entspricht.
+
+### Empfehlungen für das Regelwerk
+- Verwende gut benannte Views (z.B. `v_kgs_objekte_a`) als Zwischenschritt vor finalen Tabellen.
+- Dokumentiere jede Regel (Quelle → Zielattribut) in einem Mapping-Log (Markdown oder Tabelle).
+- Setze Constraints in der Datenbank (NOT NULL, CHECK-Bereiche) entsprechend den Modell-Domains.
+- Prüfe räumliche Operationen auf SRID-Konformität (immer EPSG:2056 halten).
+- Nutze Materialized Views für teure Aggregationen (Aufgaben 2, 3, 5) und reguliere Aktualisierung per Refresh.
+
+### Mögliche Erweiterungen
+- Einführung einer Kanton-Domain mit festen Codes (AG, AI, AR, ...)
+- Normalisierung der Objektarten (Aufgabe 4) in separate Klassen statt Textliste.
+- Gemeinsames Basis-Modell `CommonLV95.ili` (Koordinatendomains, Kantonsliste) zur Vermeidung von Duplikaten.
+- METAATTR zur Dokumentation von Herkunft (`@src_table`, `@src_column`).

@@ -1,21 +1,17 @@
 INTERLIS 2.3;
 MODEL Aufgabe4_KGS_Objekt_mit_Objektarten (en) AT "http://example.com/awt5/aufgabe4" VERSION "2025-10-29" =
   DOMAIN
-    ObjektNummer = TEXT*20;
-    GemeindeName = TEXT*80;
-    KantonCode   = TEXT*2;
-    ObjektartenCodes = TEXT*255;  !! Aggregierte Liste (kommasepariert)
     posCoord = COORD 2480000.00 .. 2850000.00 [INTERLIS.m],         
                  1060000.00 .. 1320000.00 [INTERLIS.m],
            ROTATION 2 -> 1;
   
   TOPIC Result =
     CLASS KgsObjektMitObjektarten =
-      objekt_nr         : ObjektNummer;
-      gemeinde          : GemeindeName;
-      kanton            : KantonCode;
+      objekt_nr         : TEXT*20;
+      gemeinde          : TEXT*80;
+      kanton            : TEXT*2;
       punktkoordinate   : posCoord;  !! EPSG:2056 Punkt
-      objektarten_codes : ObjektartenCodes;
+      objektarten_codes : TEXT*255;  !! Aggregierte Liste (kommasepariert)
     END KgsObjektMitObjektarten;
   END Result;
 END Aufgabe4_KGS_Objekt_mit_Objektarten.

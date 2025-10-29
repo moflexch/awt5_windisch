@@ -9,7 +9,7 @@ MODEL Aufgabe5_ISOS_ObPerimeter_FK_mit_KGS_Count (en) AT "http://example.com/awt
   TOPIC Result =
     CLASS IsosObPerimeterKgsCount =
       ob_tid     : OrtsbildTid;   !! Key aus ISOS Ortsbild (geometrie_perimeter Aggregation)
-      kgs_in_ob  : 0..9999;
+      kgs_in_ob  : 0 .. 9999;
       geom       : SURFACE WITH (STRAIGHTS, ARCS) VERTEX posCoord WITHOUT OVERLAPS > 0.01;
     END IsosObPerimeterKgsCount;
   END Result;
