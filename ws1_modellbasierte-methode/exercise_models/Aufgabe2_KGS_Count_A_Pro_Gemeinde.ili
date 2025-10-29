@@ -1,0 +1,13 @@
+INTERLIS 2.3;
+MODEL Aufgabe2_KGS_Count_A_Pro_Gemeinde (en) AT "http://example.com/awt5/aufgabe2" VERSION "2025-10-29" =
+  DOMAIN
+    GemeindeName = TEXT*80;
+    CountKgsA = 0 .. 9999;  !! Anzahl Kategorie A Objekte pro Gemeinde
+  
+  TOPIC Aggregation =
+    CLASS CountAProGemeinde =
+      gemeinde : GemeindeName;
+      anzahl_kgs_a : CountKgsA;
+    END CountAProGemeinde;
+  END Aggregation;
+END Aufgabe2_KGS_Count_A_Pro_Gemeinde.

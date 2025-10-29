@@ -1,0 +1,16 @@
+INTERLIS 2.3;
+MODEL Aufgabe5_ISOS_ObPerimeter_FK_mit_KGS_Count (en) AT "http://example.com/awt5/aufgabe5" VERSION "2025-10-29" =
+  DOMAIN
+    OrtsbildTid = OID TEXT*20;  !! Referenz-Schlüssel (ob_tid)
+    posCoord = COORD 2480000.00 .. 2850000.00 [INTERLIS.m],         
+                 1060000.00 .. 1320000.00 [INTERLIS.m],
+           ROTATION 2 -> 1;
+  
+  TOPIC Result =
+    CLASS IsosObPerimeterKgsCount =
+      ob_tid     : OrtsbildTid;   !! Key aus ISOS Ortsbild (geometrie_perimeter Aggregation)
+      kgs_in_ob  : 0..9999;
+      geom       : SURFACE WITH (STRAIGHTS, ARCS) VERTEX posCoord WITHOUT OVERLAPS > 0.01;
+    END IsosObPerimeterKgsCount;
+  END Result;
+END Aufgabe5_ISOS_ObPerimeter_FK_mit_KGS_Count.

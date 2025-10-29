@@ -1,0 +1,17 @@
+INTERLIS 2.3;
+MODEL Aufgabe6_Kulturerbe_Punkte (en) AT "http://example.com/awt5/aufgabe6" VERSION "2025-10-29" =
+  DOMAIN
+    posCoord = COORD 2480000.00 .. 2850000.00 [INTERLIS.m],         
+                 1060000.00 .. 1320000.00 [INTERLIS.m],
+           ROTATION 2 -> 1;
+
+  TOPIC Result =
+    CLASS KulturerbePunkt =
+      src      : (KGS_Objekt, ISOS_Ortsbild, ISOS_Ortsbild_v2);
+      src_id   : TEXT*40;
+      kanton   : TEXT*120;
+      gemeinde : TEXT*80;
+      geom     : posCoord;
+    END KulturerbePunkt;
+  END Result;
+END Aufgabe6_Kulturerbe_Punkte.

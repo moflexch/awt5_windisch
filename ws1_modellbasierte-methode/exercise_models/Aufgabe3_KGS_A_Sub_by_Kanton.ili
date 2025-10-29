@@ -1,0 +1,15 @@
+INTERLIS 2.3;
+MODEL Aufgabe3_KGS_A_Sub_by_Kanton (en) AT "http://example.com/awt5/aufgabe3" VERSION "2025-10-29" =
+  DOMAIN
+    KantonCode    = TEXT*2;
+    KategorieSub  = TEXT*20;  !! e.ilicode (z.B. 'A.1', 'A.2')
+    CountA        = 0 .. 99999;  !! Anzahl Objekte in Sub-Kategorie pro Kanton
+
+  TOPIC Aggregation =
+    CLASS CountASubByKanton =
+      kanton        : KantonCode;
+      kategorie_sub : KategorieSub;
+      anzahl        : CountA;
+    END CountASubByKanton;
+  END Aggregation;
+END Aufgabe3_KGS_A_Sub_by_Kanton.

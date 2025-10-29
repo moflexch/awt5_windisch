@@ -1,0 +1,19 @@
+INTERLIS 2.3;
+MODEL Aufgabe1_KGS_Objekte_A (en) AT "http://example.com/awt5/aufgabe1" VERSION "2025-10-29" =
+  DOMAIN
+    ObjektNummer = TEXT*20;  !! mapping zu objekt_nr
+    GemeindeName = TEXT*80;
+    KantonCode = TEXT*2;      !! Kürzel (z.B. 'ZH')
+    posCoord = COORD 2480000.00 .. 2850000.00 [INTERLIS.m],         
+                 1060000.00 .. 1320000.00 [INTERLIS.m],
+           ROTATION 2 -> 1;
+  TOPIC Result =
+    CLASS KgsObjektA =
+      objekt_nr : ObjektNummer;
+      kurztext  : TEXT*255;
+      kanton    : KantonCode;
+      gemeinde  : GemeindeName;
+      punktkoordinate : posCoord;
+    END KgsObjektA;
+  END Result;
+END Aufgabe1_KGS_Objekte_A.
