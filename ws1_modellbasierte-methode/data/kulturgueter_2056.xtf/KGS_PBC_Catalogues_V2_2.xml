@@ -1,0 +1,3442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- File KGS_PBC_Catalogues_V2_2.xml VERSION="2025-01-07" (https://models.geo.admin.ch/BABS/) -->
+<TRANSFER xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.interlis.ch/INTERLIS2.3">
+  <HEADERSECTION VERSION="2.3" SENDER="BABS">
+    <MODELS>
+      <MODEL NAME="CoordSys" URI="http://www.interlis.ch/models" VERSION="2015-11-24"></MODEL>
+      <MODEL NAME="Units" URI="http://www.interlis.ch/models" VERSION="2012-02-20"></MODEL>
+      <MODEL NAME="LocalisationCH_V1" URI="http://www.geo.admin.ch" VERSION="2011-08-30"></MODEL>
+      <MODEL NAME="CatalogueObjects_V1" URI="http://www.geo.admin.ch" VERSION="2011-08-30"></MODEL>
+      <MODEL NAME="CHAdminCodes_V1" URI="http://www.geo.admin.ch" VERSION="2018-02-19"></MODEL>
+      <MODEL NAME="GeometryCHLV95_V1" URI="http://www.geo.admin.ch" VERSION="2017-12-04"></MODEL>
+      <MODEL NAME="KGS_PBC_V2_2" URI="https://models.geo.admin.ch/BABS/" VERSION="2025-01-07"></MODEL>
+    </MODELS>
+  </HEADERSECTION>
+  <DATASECTION>
+    <KGS_PBC_V2_2.KGS_Codelisten BID="ch.admin.babs.kgs_pbc_catalogues_v2_2">
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1001">
+        <Objektcode>1</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Sakralbauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>édifices religieux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Costruzioni sacre</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1002">
+        <Objektcode>111</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kirchen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>églises, temples protestants</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Chiese</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1003">
+        <Objektcode>1110</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kathedralen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>cathédrales</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Cattedrali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1004">
+        <Objektcode>1111</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kirchtürme</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>clochers</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Campanili</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1005">
+        <Objektcode>1112</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Baptisterien</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>baptistères</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Battisteri</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1006">
+        <Objektcode>1113</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bischofsresidenzen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>résidences épiscopales, évêches</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Palazzi vescovili</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1007">
+        <Objektcode>112</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Klöster, Stifte, Kartausen, Priorate</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>couvents, monastères, abbayes, prieurés, chartreuses</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Conventi, monasteri, certose, priorati</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1008">
+        <Objektcode>1121</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Klosterschulen, Kollegien</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>écoles monastiques, collèges</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Scuole conventuali, collegi</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1009">
+        <Objektcode>113</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bauten anderer Glaubensrichtungen (Moscheen, Synagogen, Tempel usw.)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>constructions d'autres courants religieux (mosquées, synagogues, temples, etc.)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Costruzioni di altre religioni (moschee, sinagoghe, templi, ecc.)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1010">
+        <Objektcode>114</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kapellen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>chapelles</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Cappelle</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1011">
+        <Objektcode>115</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Wegkreuze, Bildstöcke</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>croix de chemin, calvaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Croci viarie, edicole</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1012">
+        <Objektcode>1151</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Stationenwege</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>chemins de croix</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Via Crucis</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1013">
+        <Objektcode>1152</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>(Marien-)Grotten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>grottes (de Marie)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Grotte della Madonna</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1014">
+        <Objektcode>116</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Wallfahrtsort</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>lieux de pèlerinage</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Luoghi di pellegrinaggio</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1015">
+        <Objektcode>117</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Einsiedeleien</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ermitages</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Eremi</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1016">
+        <Objektcode>118</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Friedhöfe, Friedhofsanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>cimetières, centres funéraires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Cimiteri, impianti cimiteriali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1017">
+        <Objektcode>1181</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Krematorien</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>crématoires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Crematori</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1018">
+        <Objektcode>1182</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Beinhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ossuaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ossari</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1019">
+        <Objektcode>1183</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Grabmäler</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>tombeaux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Monumenti funerari</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1020">
+        <Objektcode>119</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Pfarrhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>cures, presbytères</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case parrocchiali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1021">
+        <Objektcode>1191</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Domherren-, Chorherrenhäuser, Probsteien, Abteien</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>prévôtés, doyennés, logis abbatiaux, logis prioraux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case canoniche, abbazie</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1022">
+        <Objektcode>1192</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Pfrundscheunen, -speicher</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>granges monastiques, granges aux dîmes</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Depositi per le decime</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1023">
+        <Objektcode>2</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bauten für Öffentlichkeit, Gewerbe, Handel, Industrie, Tourismus usw.</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bâtiments publics, artisanaux, industriels, touristiques, etc.</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Costruzioni pubbliche, artigianali, commerciali, industriali, turistiche, ecc.</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1024">
+        <Objektcode>2111</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Regierungsgebäude, Ratshäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bâtiments gouvernementaux, hôtels de ville</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Palazzi governativi, palazzi del Gran Consiglio</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1025">
+        <Objektcode>2112</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Verwaltung (Gemeindehäuser, Amtshäuser, Kanzleien)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bâtiments administratifs (maisons communales, préfectures, chancelleries)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Edifici della pubblica amministrazione (municipi, cancellerie, ecc.)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1026">
+        <Objektcode>2113</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Polizeibauten, Feuerwehrbauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>hôtels de police, casernes de sapeurs-pompiers</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Costruzioni della polizia o dei pompieri</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1027">
+        <Objektcode>212</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gerichtsbauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>palais de justice</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Tribunali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1028">
+        <Objektcode>2121</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Richtstätten, Galgen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>gibets, potences</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Patiboli, forche</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1029">
+        <Objektcode>213</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Banken, Börsen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>banques, bourses</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Banche, borse</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1030">
+        <Objektcode>214</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bürogebäude</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>immeubles de bureaux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Uffici (edifici)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1031">
+        <Objektcode>215</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Postgebäude</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>offices postaux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Edifici postali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1032">
+        <Objektcode>216</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Zollhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>postes de douane</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case doganali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1033">
+        <Objektcode>217</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gefängnisbauten, Bauten Strafvollzug</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>prisons, établissements pénitentiaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Prigioni, penitenziari</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1034">
+        <Objektcode>218</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gesellschaftshäuser, Vereinsbauten, Logen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Maisons de sociétés, cercles, loges</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case di associazioni, società e logge</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1035">
+        <Objektcode>2181</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Zunfthäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>maisons des métiers</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case di corporazioni</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1036">
+        <Objektcode>221</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Archive (Gebäude)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>archives (bâtiments)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Archivi (edifici)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1037">
+        <Objektcode>222</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bibliotheken (Gebäude)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bibliothèques (bâtiments)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Biblioteche (edifici)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1038">
+        <Objektcode>223</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Museen (Gebäude)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>musées (bâtiments)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Musei (edifici)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1039">
+        <Objektcode>2231</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Panoramen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>panoramas</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Panorami</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1040">
+        <Objektcode>224</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Opernhäuser,  Konzerthallen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>opéras, salles de concert</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Teatri dell' opera, auditori per concerti</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1041">
+        <Objektcode>2241</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Schauspielhäuser, Theater</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>théâtres</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Teatri</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1042">
+        <Objektcode>2242</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kongresszentren, Mehrzweckbauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>palais des congrès, bâtiments polyvalents</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Centri dei congressi, edifici polivalenti</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1043">
+        <Objektcode>2243</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Casinos</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>casinos</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Casinò</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1044">
+        <Objektcode>231</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kindergärten, Vorschulbauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>jardins d'enfants, écoles enfantines</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Asili infantili, edifici prescolastici</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1045">
+        <Objektcode>232</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Grund- und Mittelschulen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>établissements d'enseignement primaire et secondaire</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Scuole elementari e  medie</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1046">
+        <Objektcode>2322</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gewerbeschulen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>écoles des arts et métiers</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Scuole d'arti e mestieri</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1047">
+        <Objektcode>233</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Internate, Jugendheime</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>internats, foyers de jeunes</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Collegi, centri giovanili (edifici)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1048">
+        <Objektcode>234</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Hochschulen, Fachhochschulen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>hautes écoles, hautes écoles spécialisées</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Istituti universitari, scuole universitarie professionali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1049">
+        <Objektcode>2341</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Forschungszentren</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>centres de recherche</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Centri di ricerca</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1050">
+        <Objektcode>2342</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Sternwarten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>observatoires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Osservatori astronomici</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1051">
+        <Objektcode>2343</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Konservatorien</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>conservatoires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Conservatori</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1052">
+        <Objektcode>241</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Hospize, Susten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>hospices, relais</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ospizi, soste</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1053">
+        <Objektcode>242</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gasthöfe, Pensionen, Herbergen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>auberges, pensions, auberges de jeunesse</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Locande, pensioni, ostelli</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1054">
+        <Objektcode>2421</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Hotels</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>hôtels</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Alberghi</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1055">
+        <Objektcode>243</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Spitäler, Kliniken</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>hôpitaux, cliniques</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ospedali, cliniche</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1056">
+        <Objektcode>2431</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Sanatorien, Kuranlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>sanatoriums, établissements de cure</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Sanatori, luoghi di cura (edifici)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1057">
+        <Objektcode>244</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Siechenhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>hospices (pour malades), maladreries</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Cronicari</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1058">
+        <Objektcode>245</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Thermalbäder, Badeanstalten, Frei- und Hallenbäder</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bains thermaux, établissements de bains, piscines en plein air et couvertes</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Bagni termali, bagni pubblici, piscine all'aperto, piscine coperte</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1059">
+        <Objektcode>246</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Waisenhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>orphelinats, asiles d'indigents</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Orfanotrofi, asili dei poveri</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1060">
+        <Objektcode>247</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Altersheime</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>maisons de retraite</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case per anziani</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1061">
+        <Objektcode>251</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Stadien, Rennbahnen, Sportanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>stades, hippodromes, vélodromes, circuits, centres sportifs</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Stadi, piste, impianti sportivi</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1062">
+        <Objektcode>252</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Schützenhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>stands de tir</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Poligoni di tiro</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1063">
+        <Objektcode>261</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Fabrikgebäude, Manufaktur- und Industrieanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>usines, manufactures et installations industrielles</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Edifici di fabbriche, impianti artigianali e industriali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1064">
+        <Objektcode>2621</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Mühlen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>moulins</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Mulini</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1065">
+        <Objektcode>2622</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Sägereien</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>scieries</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Segherie</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1066">
+        <Objektcode>2623</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Weitere Gewerbebauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>autres bâtiments artisanaux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Altri edifici artigianali o industriali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1067">
+        <Objektcode>263</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Ziegeleien</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>briqueteries/tuileries</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Fornaci</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1068">
+        <Objektcode>264</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bergwerke, Bergbau</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>mines, exploitations minières</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Cave e miniere</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1069">
+        <Objektcode>265</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kraft- und Stauwerke</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>centrales et barrages</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Centrali elettriche e dighe</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1070">
+        <Objektcode>266</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Markthallen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>marchés couverts</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Mercati coperti</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1071">
+        <Objektcode>2661</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Einkaufszentren, Warenhäuser, Läden</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>centres commerciaux, grands magasins, magasins</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Centri commerciali, grandi magazzini, negozi</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1072">
+        <Objektcode>2662</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Ausstellungs- und Messebauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>halles d'expositions et de foires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Edifici per esposizioni e fiere</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1073">
+        <Objektcode>267</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gaswerke</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>usines à gaz</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Aziende del gas</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1074">
+        <Objektcode>2670</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kommunikations- und Sendeanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>installations de communication et de transmission</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Impianti di comunicazione e trasmissione</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1075">
+        <Objektcode>268</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kornhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>greniers</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Granai</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1076">
+        <Objektcode>2681</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Schlachthäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>abattoirs</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Macelli</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1077">
+        <Objektcode>2682</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Salzhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>entrepôts de sel</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case del sale</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1078">
+        <Objektcode>271</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gartenanlagen, Pärke</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>jardins, parcs</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Giardini, parchi</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1079">
+        <Objektcode>2711</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Botanische Gärten, Gewächshäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>jardins botaniques, serres</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Giardini botanici, serre</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1080">
+        <Objektcode>2712</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Zoos, Tierpärke</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>zoos, parcs animaliers</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Zoo, parchi con animali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1081">
+        <Objektcode>272</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Platz- und Quaianlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>places, quais</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Piazze e lungolago</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1082">
+        <Objektcode>3</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Anlagen für den Verkehr</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>installations pour le transport</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Impianti dei trasporti pubblici</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1083">
+        <Objektcode>311</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bahnhöfe</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>gares ferroviaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Stazioni</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1084">
+        <Objektcode>3111</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Rangier-, Stellwerke, Depots, Remisen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>postes de triage, postes d'aiguillage, dépots, remises</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Impianti di smistamento e manovra, depositi, rimesse</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1085">
+        <Objektcode>3112</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bahnstrecken</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>voies ferrées</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Linee ferroviarie</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1086">
+        <Objektcode>312</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Flughäfen, Flugplätze und ihre Bauten (Kontrollturm, Einstellhallen, Hangare usw.)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>aéroports, aérodromes et leurs annexes (tours de contrôle, garages souterrains, hangars, etc.)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Aeroporti e relativi edifici (torri di controllo, aviorimesse, hangar, ecc.)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1087">
+        <Objektcode>313</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Autowerkstätten, Garagen, Tankstellen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ateliers automobiles, garages, stations-service</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Autofficine, garage, stazioni di servizio</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1088">
+        <Objektcode>314</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Luftseil-, Standseilbahnen, Zahnradbahnen, Lifte (evtl. inkl. Station)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>téléphériques, funiculaires, trains à crémaillères (y compris la station éventuellement)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Teleferiche, funicolari, ferrovie a cremagliera (ev. comprese le stazioni)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1089">
+        <Objektcode>315</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Tram-, Busanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>installations de trams, de bus</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Depositi di tram o bus</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1090">
+        <Objektcode>316</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Anlagen Schifffahrt</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>installations de navigation</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Infrastrutture della navigazione</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1091">
+        <Objektcode>321</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Brücken, Viadukte</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ponts, viaducs</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ponti, viadotti</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1092">
+        <Objektcode>3211</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Steinbrücken</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ponts de pierre</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ponti in pietra</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1093">
+        <Objektcode>3212</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Holzbrücken</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ponts de bois</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ponti in legno</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1094">
+        <Objektcode>3213</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Stahlbrücken</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ponts en acier</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ponti in acciaio</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1095">
+        <Objektcode>3214</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Stahlbetonbrücken</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ponts en béton armé</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ponti in cemento armato</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1096">
+        <Objektcode>323</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Historische Strassen und Wege</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>routes et chemins historiques</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Strade e vie storiche</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1097">
+        <Objektcode>324</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Tunnels, Tunnelportale</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>tunnels, portails de tunnel</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Gallerie e portali di gallerie</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1098">
+        <Objektcode>331</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Eisenbahnen, Bahnen allg., Lokomotiven usw.</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>chemins de fer, trains en général, locomotives, etc.</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ferrovie, treni, locomative, ecc.</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1099">
+        <Objektcode>332</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Flugzeuge</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>avions</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Aeroplani</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1100">
+        <Objektcode>333</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Automobile</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>automobiles</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Automobili</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1101">
+        <Objektcode>334</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Motorräder, Fahrräder</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>motocycles, vélos</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Motociclette, biciclette</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1102">
+        <Objektcode>335</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Schiffe, Dampfschiffe, Motorschiffe, Segelboote usw.</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bateaux, bateaux à vapeur, à moteur, à voile, etc.</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Battelli, piroscafi, barche e motore, barche a vela, ecc.</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1103">
+        <Objektcode>4</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Militärische Anlagen und Wehrbauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>installations militaires et de défense</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Impianti militari e costruzioni di difesa</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1104">
+        <Objektcode>411</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Wehrbauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>installations de défense</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Costruzioni di difesa</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1105">
+        <Objektcode>4111</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Stadt- und Ortsbefestigungen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>fortifications d'agglomération, lignes fortifiées</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Fortificazioni di città e località</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1106">
+        <Objektcode>421</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kampf- und Führungsbauten (Festungen, Stellungen)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ouvrages de combat et de commandement (forteresses, postes)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Opere di combattimento e di condotta (fortezze, postazioni)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1107">
+        <Objektcode>431</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Militärische Hochbauten (Kasernen, Unterkünfte)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bâtiments militaires (casernes, structures d'hébergement)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Edifici militari (caserme, alloggiamenti)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1108">
+        <Objektcode>432</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Andere militärische Bauten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>autres constructions militaires</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Altre costruzioni militari</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1109">
+        <Objektcode>436</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Zeughäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>arsenaux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Arsenali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1110">
+        <Objektcode>5</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Wohnbauten und ihre Nebenanlagen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bâtiments d'habitation et leurs annexes</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Edifici d'abitazione e costruzioni annesse</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1111">
+        <Objektcode>521</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Burgen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>châteaux</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Castelli</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1112">
+        <Objektcode>5211</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Burgruinen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>ruines de château</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Rovine di castelli</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1113">
+        <Objektcode>5212</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Wohntürme</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>tours d'habitation</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Torri d'abitazione</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1114">
+        <Objektcode>523</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Herrenhäuser (Schlösser, Herrensitze, Landsitze)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>maisons de maîtres (hôtels particuliers, maisons seigneuriales, manoirs)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case signorili (palazzi, residenze signorili, residenze di campagna)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1115">
+        <Objektcode>5232</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Stadtpalais, Palazzo</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>palais urbains</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Palazzi cittadini</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1116">
+        <Objektcode>5233</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Villen, Landhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>villas, maisons de campagne</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Ville, case di campagna</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1117">
+        <Objektcode>524</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Orangerien, Pavillons</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>orangeries, pavillons</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Aranciere, padiglioni</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1118">
+        <Objektcode>531</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Arbeitersiedlungen, Genossenschaftssiedlungen, Wohnsiedlungen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>cités ouvrières, coopératives d'habitation, lotissements</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Villaggi operai, villaggi cooperativi, villaggi residenziali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1119">
+        <Objektcode>5312</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bürgerhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>maisons  bourgeoises</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>case cittadine</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1120">
+        <Objektcode>532</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Einfamilienhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>maisons individuelles</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Case unifamiliare</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1121">
+        <Objektcode>533</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Städt. Wohnhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>immeubles résidentiels</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Edifici cittadini d'abitazione</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1122">
+        <Objektcode>5331</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Hochhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Bâtiments hauts</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Edifici alti</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1123">
+        <Objektcode>541</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bauernhäuser</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>fermes</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Fattorie</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1124">
+        <Objektcode>542</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Stöckli</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Stöckli</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Dependance di fattoria</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1125">
+        <Objektcode>543</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Ställe, Scheunen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>étables, granges</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Stalle, fienili</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1126">
+        <Objektcode>544</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Ländliche Kleinbauten (Speicher, Ofenhäuser, Waschhäuser)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>petites constructions rurales (greniers, fours, lavoirs)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Piccole costruzioni rurali (granai, forni esterni, lavatoi)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1127">
+        <Objektcode>545</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bauten Alpwirtschaft (Alphütten und Alpställe, Maiensässe, Heustadel, Sennhütten)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>constructions alpestres (refuges et étables de montagne, mayens, mazots à foin, chalets)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Costruzioni alpestri (capanne e stalle di alpeggi, rustici, fienili, malghe)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1128">
+        <Objektcode>6</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Archäologische Objekte</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>objets archéologiques</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Oggetti archeologici</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1129">
+        <Objektcode>6001</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Paläolithikum</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>paléolithique</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Paleolitico</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1130">
+        <Objektcode>6002</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Mesolithikum</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>mésolithique</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Mesolitico</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1131">
+        <Objektcode>6003</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Neolithikum</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>néolithique</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Neolitico</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1132">
+        <Objektcode>6004</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bronzezeit</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>âge du bronze</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Età del bronzo</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1133">
+        <Objektcode>6005</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Eisenzeit</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>âge du fer</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Età del ferro</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1134">
+        <Objektcode>6006</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Römische Zeit</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>époque romaine</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Età romana</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1135">
+        <Objektcode>6007</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Frühmittelalter</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>haut Moyen-Âge</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Alto medioevo</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1136">
+        <Objektcode>6008</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Mittelalter</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>Moyen-Âge</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Medioevo</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1137">
+        <Objektcode>6009</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Neuzeit</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>temps modernes</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Epoca moderna</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1138">
+        <Objektcode>7</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Verschiedenes</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>divers</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Varia</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1139">
+        <Objektcode>711</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Memorialstätten, Historische Stätten</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>mémoriaux, sites historiques</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Siti commemorativi, siti storici</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1140">
+        <Objektcode>712</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Inschriften</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>inscriptions</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Iscrizioni</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1141">
+        <Objektcode>713</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Denkmäler, Standbilder</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>monuments, statues</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Monumenti, statue</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1142">
+        <Objektcode>714</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gedenksteine, Distanzsteine</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>stèles commémoratives, bornes</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Lapidi commemorative, pietre miliari</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1143">
+        <Objektcode>718</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Brunnen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>fontaines</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Fontane</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1144">
+        <Objektcode>719</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Inseln, Halbinseln</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>îles, presqu'îles</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Isole, penisole</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1145">
+        <Objektcode>8</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Sammlungen</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>collections</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Collezioni</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1146">
+        <Objektcode>811</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Archäologie Museum (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>musée archéologique (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Musei archeologici (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1147">
+        <Objektcode>812</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Geschichte Museum  (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>musée d'histoire (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Musei di storia (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1148">
+        <Objektcode>813</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kunst Museum (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>musée d'art (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Musei d'arte (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1149">
+        <Objektcode>814</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Naturwissenschaften Museum (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>musée des sciences naturelles (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Musei di storia naturale (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1150">
+        <Objektcode>815</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Spezial Museum (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>musée spécial (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Musei speciali (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1151">
+        <Objektcode>8151</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Kirchenschatz (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>trésor d'église, trésor de cathédrale (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Tesori di chiese o cattedrali (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1152">
+        <Objektcode>816</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Technik Museum (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>musée technique (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Musei della tecnica (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1153">
+        <Objektcode>817</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Volkskunde Museum (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>musée d'ethnographie (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Musei del folclore (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1154">
+        <Objektcode>841</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bundes- und Staatsarchive (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>archives fédérales et d'Etat (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Archivi federali e cantonali (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1155">
+        <Objektcode>842</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Firmenarchive (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>archives d'entreprises (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Archivi aziendali (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1156">
+        <Objektcode>843</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Geistliche Archive (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>archives ecclésiastiques (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Archivi ecclesiastici (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1157">
+        <Objektcode>844</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Gemeindearchive (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>archives communales (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Archivi comunali (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1158">
+        <Objektcode>845</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Spezialarchive (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>archives spéciales (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Archivi speciali (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1159">
+        <Objektcode>8451</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Musikaliensammlung</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>collection de partitions musicales</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Collezione di spartiti musicali</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1160">
+        <Objektcode>860</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Öffentliche Bibliothek (Bund, Kantone, Gemeinden, Universitäten usw.) (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bibliothèque publique (Confédération, Cantons, Communes,  Universités etc.) (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Biblioteca a pubblica (Confederazione, Cantoni, Comuni, Università, ecc.) (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1161">
+        <Objektcode>861</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Bibliothek mit geistlicher Trägerschaft (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bibliothèque d'organismes religieux (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Biblioteca a gestione religiosa (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1162">
+        <Objektcode>862</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Spezialbibliothek (Museen, Archive usw.) (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bibliothèque spéciale (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Biblioteca speciale (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+      <KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue TID="1163">
+        <Objektcode>863</Objektcode>
+        <Objektbezeichnung>
+          <LocalisationCH_V1.MultilingualText>
+            <LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>de</Language>
+                <Text>Private Bibliothek (Sammlung)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>fr</Language>
+                <Text>bibliothèque privée (collection)</Text>
+              </LocalisationCH_V1.LocalisedText>
+              <LocalisationCH_V1.LocalisedText>
+                <Language>it</Language>
+                <Text>Biblioteca privata (collezione)</Text>
+              </LocalisationCH_V1.LocalisedText>
+            </LocalisedText>
+          </LocalisationCH_V1.MultilingualText>
+        </Objektbezeichnung>
+      </KGS_PBC_V2_2.KGS_Codelisten.Objektarten_Catalogue>
+    </KGS_PBC_V2_2.KGS_Codelisten>
+  </DATASECTION>
+</TRANSFER>

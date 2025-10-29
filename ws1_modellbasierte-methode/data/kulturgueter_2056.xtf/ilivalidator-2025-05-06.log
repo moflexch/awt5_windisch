@@ -1,0 +1,69 @@
+Info: ilivalidator-1.14.4-81646d01b5b2e5713e864e300c44c05e8c79b437
+Info: ili2c-5.6.2-98609b0574483403389e1c914bc928155d59fdea
+Info: iox-ili-1.23.3-fad31de1519aac5c06d1c5f41e021b8608c744d3
+Info: java.version 21.0.4
+Info: User <awe>
+Info: Start date 2025-05-06 13:46
+Info: maxMemory 8282112 KB
+Info: dataFile <P:\babs_geodatenlieferung_23\06Transformation\output\xtf\ID65.1_KGS_PBC_V2_2__20250506.xtf>
+Info: modeldir <%ITF_DIR;http://models.interlis.ch/;%JAR_DIR/ilimodels;P:\babs_geodatenlieferung_23\06Transformation\interlis>
+Info: modelNames <KGS_PBC_V2_2>
+Info: lookup model <KGS_PBC_V2_2> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\output\xtf/>
+Info: lookup model <KGS_PBC_V2_2> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <KGS_PBC_V2_2> 2.3 in repository <C:\Users\awe\Documents\apps\ilivalidator-1.14.4/ilimodels/>
+Warning: Folder C:\Users\awe\Documents\apps\ilivalidator-1.14.4\ilimodels doesn't exist; ignored
+Info: lookup model <KGS_PBC_V2_2> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\interlis/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\output\xtf/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <C:\Users\awe\Documents\apps\ilivalidator-1.14.4/ilimodels/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\interlis/>
+Info: lookup model <GeometryCHLV95_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CHAdminCodes_V1> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\output\xtf/>
+Info: lookup model <CHAdminCodes_V1> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <CHAdminCodes_V1> 2.3 in repository <C:\Users\awe\Documents\apps\ilivalidator-1.14.4/ilimodels/>
+Info: lookup model <CHAdminCodes_V1> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\interlis/>
+Info: lookup model <CHAdminCodes_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <LocalisationCH_V1> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\output\xtf/>
+Info: lookup model <LocalisationCH_V1> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <LocalisationCH_V1> 2.3 in repository <C:\Users\awe\Documents\apps\ilivalidator-1.14.4/ilimodels/>
+Info: lookup model <LocalisationCH_V1> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\interlis/>
+Info: lookup model <LocalisationCH_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\output\xtf/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <C:\Users\awe\Documents\apps\ilivalidator-1.14.4/ilimodels/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\interlis/>
+Info: lookup model <CatalogueObjects_V1> 2.3 in repository <http://models.geo.admin.ch/>
+Info: lookup model <CoordSys> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\output\xtf/>
+Info: lookup model <CoordSys> 2.3 in repository <http://models.interlis.ch/>
+Info: lookup model <Units> 2.3 in repository <P:\babs_geodatenlieferung_23\06Transformation\output\xtf/>
+Info: lookup model <Units> 2.3 in repository <http://models.interlis.ch/>
+Info: ilifile <C:\Users\awe\.ilicache\models.geo.admin.ch\CH\CHBase_Part3_CATALOGUEOBJECTS_V1.ili>
+Info: ilifile <C:\Users\awe\.ilicache\models.interlis.ch\refhb23\CoordSys-20151124.ili>
+Info: ilifile <C:\Users\awe\.ilicache\models.geo.admin.ch\CH\CHBase_Part2_LOCALISATION_V1.ili>
+Info: ilifile <C:\Users\awe\.ilicache\models.interlis.ch\refhb23\Units-20120220.ili>
+Info: ilifile <C:\Users\awe\.ilicache\models.geo.admin.ch\CH\CHBase_Part4_ADMINISTRATIVEUNITS_V1.ili>
+Info: ilifile <C:\Users\awe\.ilicache\models.geo.admin.ch\CH\CHBase_Part1_GEOMETRY_V1.ili>
+Info: ilifile <P:\babs_geodatenlieferung_23\06Transformation\interlis\KGS_PBC_V2_2.ili>
+Info: validate data...
+Info: assume unknown external objects
+Info: first validation pass...
+Info: second validation pass...
+Info: validate mandatory constraint KGS_PBC_V2_2.KGS_Inventar.KGS_Image.Constraint1...
+Info: validate target of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_Image.R5_KGSobj...
+Info: validate multiplicity of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_Image.R5_KGSobj...
+Info: validate reference attr KGS_PBC_V2_2.KGS_Codelisten.Objektarten_CatRef.Reference...
+Info: validate multiplicity of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_Image.R6_KGSimage...
+Info: validate multiplicity of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_Link.R2_KGSlink...
+Info: validate multiplicity of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_PDF.R4_KGSpdf...
+Info: validate target of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_PDF.R3_KGSobj...
+Info: validate multiplicity of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_PDF.R3_KGSobj...
+Info: validate target of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_Link.R1_KGSobj...
+Info: validate multiplicity of role KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt_KGS_Link.R1_KGSobj...
+Info: object count 17675 (structured elements 28403)
+Info: P:\babs_geodatenlieferung_23\06Transformation\output\xtf\ID65.1_KGS_PBC_V2_2__20250506.xtf: KGS_PBC_V2_2.KGS_Inventar BID=b002
+Info:    8731 objects in CLASS KGS_PBC_V2_2.KGS_Inventar.KGS_Image
+Info:    2943 objects in CLASS KGS_PBC_V2_2.KGS_Inventar.KGS_Link
+Info:    3434 objects in CLASS KGS_PBC_V2_2.KGS_Inventar.KGS_Objekt
+Info:    2567 objects in CLASS KGS_PBC_V2_2.KGS_Inventar.KGS_PDF
+Info: ...validation done
+Info: End date 2025-05-06 13:46 validation took 00h:00m:04s.0636ms
