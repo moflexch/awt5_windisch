@@ -102,4 +102,4 @@ Die Folien (PDF) liefern eine Einführung in Interoperabilität und die modellba
 5. Ableitungs-/Mapping-Regeln dokumentieren
 6. Ergebnisse evaluieren und verbessern
 
-Viel Erfolg beim Kennenlernen der modellbasierten Methode!
+Viel Erfolg beim Kennenlernen der modellbasierten Methode! 
