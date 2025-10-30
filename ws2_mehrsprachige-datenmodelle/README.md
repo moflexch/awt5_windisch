@@ -176,7 +176,7 @@ In Übersetzungsdatei (uebersetzung_bi23.xml) die Daten in die jeweilige Sprache
 | > `gut`               | _> bon_                      | > `bon`                      |
 | > `schlecht`          | _> mauvais_                  | > `mauvais`                  |
 |                       |                              |                              |
-| `Kontrolle`           | _controlle_                  | `Controlle`                  |
+| `Kontrolle`           | _contrôle_                   | `Controle`                   |
 
 > [!NOTE]
 > Die Bezeichnungen für Klassen und Attribute (sog. [INTERLIS Namen](https://geostandards-ch.github.io/doc_refhb24/#_namen)) dürfen keine Leerzeichen und keine diakritsche Zeichen (¨, ´, ` usw.) enthalten.
@@ -499,10 +499,10 @@ MODEL InventaireDesPonts24ext (fr)
     CLASS Inspection (EXTENDED) =
     END Inspection;
 
-    ASSOCIATION Controlle (EXTENDED) =
+    ASSOCIATION Controle (EXTENDED) =
       rolle_a (EXTENDED) -- {1} Pont;
       rolle_b (EXTENDED) -- {0..*} Inspection;
-    END Controlle;
+    END Controle;
 
   END Ponts;
 
