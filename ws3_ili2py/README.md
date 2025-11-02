@@ -62,7 +62,7 @@ Schauen wir uns also an, wie man das Ganze grundsätzlich nutzt.
 ./ili2py-macos
 
 # Windows
-ili2py-windows.exe
+.\ili2py-windows.exe
 ```
 
 Ausgabe ist:
@@ -90,7 +90,7 @@ Commands:
 ./ili2py-macos --help
 
 # Windows
-ili2py-windows.exe --help
+.\ili2py-windows.exe --help
 ```
 
 Mit `-V`/`--version` kann die vorliegende Version angezeigt werden.
@@ -105,8 +105,8 @@ Mit `-V`/`--version` kann die vorliegende Version angezeigt werden.
 ./ili2py-macos --version
 
 # Windows
-ili2py-windows.exe --V
-ili2py-windows.exe --version
+.\ili2py-windows.exe --V
+.\ili2py-windows.exe --version
 ```
 
 Ausgabe:
@@ -134,7 +134,7 @@ Erstellt aus einem Ilismeta16 ein Diagramm nach Wahl.
 ./ili2py-macos diagram --help
 
 # Windows
-ili2py-windows.exe diagram --help
+.\ili2py-windows.exe diagram --help
 ```
 
 Ausgabe:
@@ -204,7 +204,7 @@ Folgender Befehl erzeugt ein mermaid diagramm (Markdown Datei) in dem Elemente d
 ./ili2py-macos diagram -i models/OeREBKRMtrsfr_V2_0/OeREBKRMtrsfr_V2_0.imd -o ./ -m OeREBKRMtrsfr_V2_0
 
 # Windows
-ili2py-windows.exe diagram -i models\OeREBKRMtrsfr_V2_0\OeREBKRMtrsfr_V2_0.imd -o .\ -m OeREBKRMtrsfr_V2_0
+.\ili2py-windows.exe diagram -i models\OeREBKRMtrsfr_V2_0\OeREBKRMtrsfr_V2_0.imd -o .\ -m OeREBKRMtrsfr_V2_0
 ```
 
 Folgender Befehl erzeugt dasselbe Diagramm, liefert aber mehr Logging-Ausgabe. Das kann im Fehlerfall nützlich sein.
@@ -217,7 +217,7 @@ Folgender Befehl erzeugt dasselbe Diagramm, liefert aber mehr Logging-Ausgabe. D
 ./ili2py-macos -v diagram -i models/OeREBKRMtrsfr_V2_0/OeREBKRMtrsfr_V2_0.imd -o ./ -m OeREBKRMtrsfr_V2_0
 
 # Windows
-ili2py-windows.exe -v diagram -i models\OeREBKRMtrsfr_V2_0\OeREBKRMtrsfr_V2_0.imd -o .\ -m OeREBKRMtrsfr_V2_0
+.\ili2py-windows.exe -v diagram -i models\OeREBKRMtrsfr_V2_0\OeREBKRMtrsfr_V2_0.imd -o .\ -m OeREBKRMtrsfr_V2_0
 ```
 
 Nun kann jeder mal frei ausprobieren.
@@ -234,7 +234,7 @@ Erstellt aus einem Ilismeta16 eine komplette eigenständige Python Klassenbiblio
 ./ili2py-macos python-classes --help
 
 # Windows
-ili2py-windows.exe python-classes --help
+.\ili2py-windows.exe python-classes --help
 ```
 
 Ausgabe:
@@ -272,7 +272,7 @@ Folgender Befehl erstellt die Python Bibliothek im Ordner `OeREBKRMtrsfr_V2_0`:
 ./ili2py-macos python-classes -i models/OeREBKRMtrsfr_V2_0/OeREBKRMtrsfr_V2_0.imd -o ./ -l interface
 
 # Windows
-ili2py-windows.exe python-classes -i models\OeREBKRMtrsfr_V2_0\OeREBKRMtrsfr_V2_0.imd -o .\ -l interface
+.\ili2py-windows.exe python-classes -i models\OeREBKRMtrsfr_V2_0\OeREBKRMtrsfr_V2_0.imd -o .\ -l interface
 ```
 
 Nun kann man im Editor die 
@@ -288,7 +288,7 @@ Folgender Befehl erzeugt dieselbe Bibliothek, liefert aber mehr Logging-Ausgabe.
 ./ili2py-macos python-classes -i models/OeREBKRMtrsfr_V2_0/OeREBKRMtrsfr_V2_0.imd -o ./ -l interface
 
 # Windows
-ili2py-windows.exe python-classes -i models\OeREBKRMtrsfr_V2_0\OeREBKRMtrsfr_V2_0.imd -o .\ -l interface
+.\ili2py-windows.exe python-classes -i models\OeREBKRMtrsfr_V2_0\OeREBKRMtrsfr_V2_0.imd -o .\ -l interface
 ```
 
 ---
@@ -308,14 +308,17 @@ Ablauf:
 1. Modell auswählen zu dem auch Daten vorhanden sind (im Workshop Material gibt es verschiedene => die mit einem ZIP im Ordner)
 1. Daten aus Zip entpacken
 1. Erzeugen einer Bibliothek auf Basis des gewählten Modells
-1. `qgis_loader.py` im Editor öffnen
+1. `xtf_qgis_loader.py` im Editor öffnen
 1. Die Variable `xtf_path` so anpassen, dass sie auf das XTF zeigt, das zum gewählten Modell gehört
 1. QGIS starten
 1. Pyhton Konsole in QGIS aufrufen (Ctrl+Alt+P)
 1. Editor in Python Konsole anzeigen
-1. `qgis_loader.py` via "Skript öffnen" laden
+1. `xtf_qgis_loader.py` via "Skript öffnen" laden
 1. Pfad auf gewünschtes Modell anpassen, relative Pfade zum Skript gehen
 1. Mit grünem `Play` das Skript ausführen
 
+Zur Demonstration sind auch folgende Scripts geeignet:
 
-
+- [Indexed XTF Parser](xtf_parser.py) - Nutzt die durch ili2py erzeugten Klassen und erstellt gleichzeitig einen Index der gelesenen Elemente.
+- [XTF lesen](xtf_read.py) - Liest ein XTF durch den o.g. Parser ein. Dieses Skript eignet sich besonders um die eingelesene Struktur im Python Debugger anzuschauen.
+- [XTF schreiben](xtf_write.py) - Nutzt o.g. Reader manipuliert den eingelesenen Inhalt und schreibt wieder ein valides XTF.
