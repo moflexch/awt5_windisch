@@ -3,4 +3,4 @@ dot/
 mermaid/
 interface/
 manipulated.xtf
-models/
+models/*
